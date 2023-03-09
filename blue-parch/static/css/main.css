@@ -25,6 +25,8 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    color: #4c4f69;
+    background-color: #eff1f5;
 }
 em {
     font-style: italic;
@@ -70,7 +72,7 @@ header, #wrapper {
 
 a {
     text-decoration: none;
-    color: #41AED9;
+    color: #04a5e5;
 }
 
 ul {
@@ -101,7 +103,7 @@ img + em {
 blockquote {
     margin: 1.5em 1.5em 1.5em .75em;
     padding-left: .75em;
-    border-left: 1px solid #EEE;
+    border-left: 1px solid #8c8fa1;
 }
 
 table {
@@ -109,11 +111,11 @@ table {
     margin: 1em 0;
 }
 thead {
-    border-bottom: 1px solid #0D0D0D;
+    border-bottom: 1px solid #04a5e5;
 }
 
 .date {
-    color: #CCC;
+    color: #6c6f85;
     float: left;
     clear: both;
     width: 130px;
@@ -126,14 +128,14 @@ thead {
     margin-top: 1.3em;
     font-family: sans-serif;
     text-align: right;
-    color: #BBB;
+    color: #5c5f77;
 }
 .info a {
     color: inherit;
 }
 .info a.tags {
-    background: #CCC;
-    color: #FFF;
+    background: #acb0be;
+    color: #eff1f5;
     display: inline-block;
     padding: 0 .3em;
     border: 1px transparent solid;
@@ -145,7 +147,7 @@ thead {
     color: inherit;
 }
 .info a.tags.selected {
-    border: 1px #999 solid;
+    border: 1px #6c6f85 solid;
 }
 
 .post {
@@ -221,13 +223,13 @@ sub {
 form.inline_edit {
     clear: both;
     margin: 4.5em 0;
-    background-color: #DDD;
-    color: #000;
+    background-color: #eff1f5;
+    color: #5c5f77;
     padding: 20px;
     border-radius: 5px;
 }
 .inline_edit .sub {
-    color: #888;
+    color: #bcc0cc;
     white-space: nowrap;
 }
 .inline_edit label {
@@ -255,12 +257,12 @@ nav a {
     padding: 4.5em 10px 10px 10px;
 }
 nav a:hover {
-    background-color: #d3d3d3;
-    color: #FFF;
+    background-color:#04a5e5ab;
+    color: #eff1f5;
 }
 nav li.selected a {
-    background-color: #049DD9;
-    color: #FFF;
+    background-color: #04a5e5;
+    color: #eff1f5;
 }
 
 header .header_box {
@@ -274,7 +276,7 @@ header h1 {
 header h2 {
     font-size: 1em;
     margin: .3em 0;
-    color: #DDD;
+    color: #ccd0da;
 }
 
 #content {
@@ -285,7 +287,7 @@ header h2 {
     font-family: sans-serif;
     line-height: 2.5em;
     margin: 4.5em 0 3em;
-    background-color: #F9F9F9;
+    background-color: #eff1f5;
     border-radius: 5px;
 }
 .pages a.next_page {
@@ -294,7 +296,7 @@ header h2 {
     text-align: center;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #EEE;
+    background-color: #ccd0da;
 }
 .pages a.prev_page {
     float: left;
@@ -302,14 +304,14 @@ header h2 {
     text-align: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    background-color: #EEE;
+    background-color: #ccd0da;
 }
 .pages a {
     color: inherit;
     border: none;
 }
 .pages a:hover {
-    background-color: #DDD;
+    background-color: #eff1f5;
 }
 .pages span {
     display: block;
@@ -323,7 +325,7 @@ code {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     box-sizing: border-box;
-    color: #C7254E;
+    color: #d20f39;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
     font-size: 12.6px;
     line-height: 18px;
@@ -337,10 +339,8 @@ footer {
     font-family: sans-serif;
     line-height: 2.5em;
     text-align: center;
-    color: #BBB;
+    color: #eff1f5;
     margin: 3em 0;
-    border: 1px solid #EEE;
-    border-radius: 5px;
 }
 footer p { margin: 0; }
 
@@ -380,7 +380,7 @@ footer p { margin: 0; }
 }
 @media print {
     * {
-        background: #fff;
+        background: #eff1f5;
     }
     #wrapper, #content {
         margin: 0;
